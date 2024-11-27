@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,6 +12,8 @@ body{
 }
 
 html{
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
     scroll-behavior: smooth;
 }
 
@@ -276,7 +279,7 @@ section{
 
 .arrow{
     position: absolute;
-    right: -5rem;
+    right: 1rem;
     bottom: 2.5rem;
 }
 
